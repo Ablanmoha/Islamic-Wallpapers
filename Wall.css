@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    background-color: #b8cfe4;
+}
+.logo{
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 110px;
+    background-color: black;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+#flexbox{
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#Box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12{
+margin-top: 20px;
+width: 290px;
+height:520px;
+border-radius: 30px;
+background-color: whitesmoke;
+}
+h2{
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 160px;
+}
+p{
+    padding-left: 20px;
+    font-family:Arial;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 50px;
+}
+#pic1{
+    width: 290px;
+    height: 450px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#pic2{
+    
+    width: 290px;
+    height: 450px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+ol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+ol li{
+    padding-top:  8px;
+    padding-right: 30px;
+    display: inline;
+   
+}
+ol li a{
+    text-decoration: none;
+    color: black;
+    font-family:Arial;
+    font-size: 16.5px;
+    padding: 10px;
+    transition: 1.2s;
+}
+ol li a:hover{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+ul li{
+    padding-top:  8px;
+    padding-right: 30px;
+    display: inline;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family:Arial;
+    padding: 10px 15px;
+    transition: 1.2s;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+
